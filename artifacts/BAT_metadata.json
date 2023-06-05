@@ -1,0 +1,174 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "finishRoute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_company",
+						"type": "string"
+					}
+				],
+				"name": "getCompanyRoutes",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getRouteById",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint64",
+								"name": "temperature",
+								"type": "uint64"
+							},
+							{
+								"internalType": "uint64",
+								"name": "humidity",
+								"type": "uint64"
+							},
+							{
+								"internalType": "uint64",
+								"name": "weight",
+								"type": "uint64"
+							},
+							{
+								"internalType": "uint256",
+								"name": "date",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct BAT.SensorsData[]",
+						"name": "",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_company",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "initializeRoute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_temperature",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_humidity",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_weight",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_date",
+						"type": "uint256"
+					}
+				],
+				"name": "updateRoute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"main.sol": "BAT"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"main.sol": {
+			"keccak256": "0x4a5eda61dd61130a1ff5b9ba00f19822868f21eabd6ac4c35ea47da1d04e2483",
+			"urls": [
+				"bzz-raw://ee5bb0c65ad3bad25fc4ab730f4533af3cac3aacfd4156cb226b69a99cc2c454",
+				"dweb:/ipfs/QmYpTjrmS3i2btKZuLY7ay2a7FwH3TouAmg5wC4PnqPaX7"
+			]
+		}
+	},
+	"version": 1
+}
