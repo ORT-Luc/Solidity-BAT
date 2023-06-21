@@ -50,23 +50,40 @@
 					{
 						"components": [
 							{
-								"internalType": "uint64",
+								"internalType": "int16",
 								"name": "temperature",
-								"type": "uint64"
+								"type": "int16"
 							},
 							{
-								"internalType": "uint64",
+								"internalType": "uint8",
 								"name": "humidity",
-								"type": "uint64"
+								"type": "uint8"
 							},
 							{
-								"internalType": "uint64",
+								"internalType": "uint16",
 								"name": "weight",
-								"type": "uint64"
+								"type": "uint16"
+							},
+							{
+								"components": [
+									{
+										"internalType": "int32",
+										"name": "latitud",
+										"type": "int32"
+									},
+									{
+										"internalType": "int32",
+										"name": "longitude",
+										"type": "int32"
+									}
+								],
+								"internalType": "struct BAT.Coords",
+								"name": "coord",
+								"type": "tuple"
 							},
 							{
 								"internalType": "uint256",
-								"name": "date",
+								"name": "timestamp",
 								"type": "uint256"
 							}
 						],
@@ -109,24 +126,34 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint64",
+						"internalType": "int16",
 						"name": "_temperature",
-						"type": "uint64"
+						"type": "int16"
 					},
 					{
-						"internalType": "uint64",
+						"internalType": "uint8",
 						"name": "_humidity",
-						"type": "uint64"
+						"type": "uint8"
 					},
 					{
-						"internalType": "uint64",
+						"internalType": "uint16",
 						"name": "_weight",
-						"type": "uint64"
+						"type": "uint16"
 					},
 					{
 						"internalType": "uint256",
 						"name": "_date",
 						"type": "uint256"
+					},
+					{
+						"internalType": "int32",
+						"name": "_latitud",
+						"type": "int32"
+					},
+					{
+						"internalType": "int32",
+						"name": "_longitude",
+						"type": "int32"
 					}
 				],
 				"name": "updateRoute",
@@ -163,10 +190,10 @@
 	},
 	"sources": {
 		"main.sol": {
-			"keccak256": "0x4a5eda61dd61130a1ff5b9ba00f19822868f21eabd6ac4c35ea47da1d04e2483",
+			"keccak256": "0xadde7eb3605e533cdae19af92038e46a53a74dc16eedca427509b4cec7d71599",
 			"urls": [
-				"bzz-raw://ee5bb0c65ad3bad25fc4ab730f4533af3cac3aacfd4156cb226b69a99cc2c454",
-				"dweb:/ipfs/QmYpTjrmS3i2btKZuLY7ay2a7FwH3TouAmg5wC4PnqPaX7"
+				"bzz-raw://856ebe7374cbe9cefad7a742ece1493291d1438a6a349c058bbfc809b346b3ba",
+				"dweb:/ipfs/QmVxH5xgm7AP7PmsD6vdyeEuJxaXu3iepbNRndn3UVxGY1"
 			]
 		}
 	},
