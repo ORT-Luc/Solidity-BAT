@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_deployer",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "companies",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deployer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_company",
+						"type": "address"
+					}
+				],
+				"name": "endRoute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_company",
+						"type": "address"
+					},
+					{
+						"internalType": "int32",
+						"name": "_time",
+						"type": "int32"
+					}
+				],
+				"name": "initializeRoute",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "routes",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_company",
+						"type": "address"
+					}
+				],
+				"name": "updateRoute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Back.sol": "Back"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Back.sol": {
+			"keccak256": "0x8dd901b27caff384b14192875994df0625e76c8bc835f7748f460c954c5d39b9",
+			"urls": [
+				"bzz-raw://02930176022ee6e56928db62a509365432f5ca11ab7b72dad9b5f91bd58cf374",
+				"dweb:/ipfs/QmfTBpgvGYXgq5D5axaTnnwxGxzrSekUjBU92PMrkxJ6rB"
+			]
+		},
+		"Company.sol": {
+			"keccak256": "0x7c81c60196867dfb028c565aff171ffcae21ed58572cc817d5a1738def301a94",
+			"urls": [
+				"bzz-raw://5157469d6f36cf2677f8e9afd55d17455a91e7f8ee2b893aa766ca3d0aee15df",
+				"dweb:/ipfs/QmS4gpPzpuydiUF6sTsbYDCTTr73LdBimDVdMFk2Ayg79z"
+			]
+		},
+		"Route.sol": {
+			"keccak256": "0xce6ef39445eec8971ea03c5fd92913c794c2930fc84ac3867f1329cb3f56fafd",
+			"urls": [
+				"bzz-raw://0352d8579b5acfec7858ef0ebb594cf3a085c28d89aa61ad77b49f57ad9cde87",
+				"dweb:/ipfs/QmTvH9EveX5aMukBXFFauh5QCJxRRHz6eH1zyb2tcye9Ni"
+			]
+		}
+	},
+	"version": 1
+}
